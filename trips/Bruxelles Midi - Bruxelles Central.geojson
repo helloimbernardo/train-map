@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Bruxelles Midi ❯ Bruxelles Central",
+        "trip": {
+          "name": "Bruxelles Midi ❯ Bruxelles Central",
+          "from": "Bruxelles Midi",
+          "to": "Bruxelles Central"
+        },
         "description": "",
         "carrier": "SNCB",
         "service": "InterCity",

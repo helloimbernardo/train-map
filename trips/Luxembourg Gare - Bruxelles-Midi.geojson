@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Luxembourg Gare ❯ Bruxelles-Midi",
+        "trip": {
+          "name": "Luxembourg Gare ❯ Bruxelles-Midi",
+          "from": "Luxembourg Gare",
+          "to": "Bruxelles-Midi"
+        },
         "description": "",
         "carrier": "SNCB",
         "service": "InterCity",

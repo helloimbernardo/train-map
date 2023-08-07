@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Wien Hauptbahnhof ❯ Praha Hlavní Nádraží",
+        "trip": {
+          "name": "Wien Hauptbahnhof ❯ Praha Hlavní Nádraží",
+          "from": "Wien Hauptbahnhof",
+          "to": "Praha Hlavní Nádraží"
+        },
         "description": "",
         "carrier": "ČD",
         "service": "Railjet",

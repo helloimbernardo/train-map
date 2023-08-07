@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Wien Flughafen ❯ Wien Hauptbahnhof",
+        "trip": {
+          "name": "Wien Flughafen ❯ Wien Hauptbahnhof",
+          "from": "Wien Flughafen",
+          "to": "Wien Hauptbahnhof"
+        },
         "description": "",
         "carrier": "ÖBB",
         "service": "Railjet",

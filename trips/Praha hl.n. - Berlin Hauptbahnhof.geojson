@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Praha hl.n. ❯ Berlin Hauptbahnhof",
+        "trip": {
+          "name": "Praha hl.n. ❯ Berlin Hauptbahnhof",
+          "from": "Praha hl.n.",
+          "to": "Berlin Hauptbahnhof"
+        },
         "description": "",
         "carrier": ["ČD", "DB"],
         "service": "EuroCity",

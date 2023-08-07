@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Bruxelles Midi ❯ Paris Nord",
+        "trip": {
+          "name": "Bruxelles Midi ❯ Paris Nord",
+          "from": "Bruxelles Midi",
+          "to": "Paris Nord"
+        },
         "description": "",
         "carrier": "Thalys",
         "service": "Thalys",

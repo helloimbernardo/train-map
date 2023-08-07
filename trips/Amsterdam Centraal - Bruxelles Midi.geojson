@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Amsterdam Centraal ❯ Bruxelles Midi",
+        "trip": {
+          "name": "Amsterdam Centraal ❯ Bruxelles Midi",
+          "from": "Amsterdam Centraal",
+          "to": "Bruxelles Midi"
+        },
         "description": "",
         "carrier": "NS",
         "service": "InterCity",

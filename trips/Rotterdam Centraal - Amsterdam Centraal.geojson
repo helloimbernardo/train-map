@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Rotterdam Centraal ❯ Amsterdam Centraal",
+        "trip": {
+          "name": "Rotterdam Centraal ❯ Amsterdam Centraal",
+          "from": "Rotterdam Centraal",
+          "to": "Amsterdam Centraal"
+        },
         "description": "",
         "carrier": "NS",
         "service": "InterCity",

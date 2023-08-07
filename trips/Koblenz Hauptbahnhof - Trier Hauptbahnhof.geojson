@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Koblenz Hauptbahnhof ❯ Trier Hauptbahnhof",
+        "trip": {
+          "name": "Koblenz Hauptbahnhof ❯ Trier Hauptbahnhof",
+          "from": "Koblenz Hauptbahnhof",
+          "to": "Trier Hauptbahnhof"
+        },
         "description": "",
         "carrier": "DB",
         "service": "Regional Express",

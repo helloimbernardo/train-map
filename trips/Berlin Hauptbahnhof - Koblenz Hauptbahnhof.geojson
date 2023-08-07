@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Berlin Hauptbahnhof ❯ Koblenz Hauptbahnhof",
+        "trip": {
+          "name": "Berlin Hauptbahnhof ❯ Koblenz Hauptbahnhof",
+          "from": "Berlin Hauptbahnhof",
+          "to": "Koblenz Hauptbahnhof"
+        },
         "description": "",
         "carrier": "DB",
         "service": "InterCity Express",

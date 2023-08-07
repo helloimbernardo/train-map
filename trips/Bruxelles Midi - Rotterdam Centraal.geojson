@@ -5,7 +5,11 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": "Bruxelles Midi ❯ Rotterdam Centraal",
+        "trip": {
+          "name": "Bruxelles Midi ❯ Rotterdam Centraal",
+          "from": "Bruxelles Midi",
+          "to": "Rotterdam Centraal"
+        },
         "description": "",
         "carrier": "NS",
         "service": "InterCity",

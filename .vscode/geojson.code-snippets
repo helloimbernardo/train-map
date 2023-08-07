@@ -21,7 +21,11 @@
 		"prefix": "properties",
 		"body": [
 			"\"properties\": {",
-			"\t\"trip\": \"${1} ❯ ${2}\",",
+			"\t\"trip\": {,",
+				"\t\t\"name\": \"${1} ❯ ${2}\",",
+				"\t\t\"from\": \"${1}\",",
+				"\t\t\"to\": \"${2}\",",
+			"\t},",
 			"\t\"description\": \"\",",
 			"\t\"carrier\": \"\",",
 			"\t\"carrier\": [\"\"],",
