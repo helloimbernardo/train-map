@@ -5,11 +5,9 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Wien Flughafen ❯ Wien Hauptbahnhof",
-          "from": "Wien Flughafen",
-          "to": "Wien Hauptbahnhof"
-        },
+        "name": "Wien Flughafen ❯ Wien Hauptbahnhof",
+        "from": "Wien Flughafen",
+        "to": "Wien Hauptbahnhof",
         "description": "",
         "carrier": "ÖBB",
         "service": "Railjet",
@@ -405,21 +403,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Wien Hauptbahnhof ❯ Praha Hlavní Nádraží",
-          "from": "Wien Hauptbahnhof",
-          "to": "Praha Hlavní Nádraží"
-        },
+        "name": "Wien Hauptbahnhof ❯ Praha Hlavní Nádraží",
+        "from": "Wien Hauptbahnhof",
+        "to": "Praha Hlavní Nádraží",
         "description": "",
         "carrier": "ČD",
         "service": "Railjet",
         "train": "RJ 78",
         "date": "2022-12-20T15:10+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 4,
-          "minutes": 27
-        }
+        "duration": 267
       },
       "geometry": {
         "type": "LineString",
@@ -1725,21 +1717,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Praha hl.n. ❯ Berlin Hauptbahnhof",
-          "from": "Praha hl.n.",
-          "to": "Berlin Hauptbahnhof"
-        },
+        "name": "Praha hl.n. ❯ Berlin Hauptbahnhof",
+        "from": "Praha hl.n.",
+        "to": "Berlin Hauptbahnhof",
         "description": "",
         "carrier": ["ČD", "DB"],
         "service": "EuroCity",
         "train": "EC 170",
         "date": "2022-12-21T16:25+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 4,
-          "minutes": 18
-        }
+        "duration": 258
       },
       "geometry": {
         "type": "LineString",
@@ -6729,21 +6715,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Berlin Hauptbahnhof ❯ Koblenz Hauptbahnhof",
-          "from": "Berlin Hauptbahnhof",
-          "to": "Koblenz Hauptbahnhof"
-        },
+        "name": "Berlin Hauptbahnhof ❯ Koblenz Hauptbahnhof",
+        "from": "Berlin Hauptbahnhof",
+        "to": "Koblenz Hauptbahnhof",
         "description": "",
         "carrier": "DB",
         "service": "InterCity Express",
         "train": "ICE 556",
         "date": "2022-12-23T14:46+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 5,
-          "minutes": 30
-        }
+        "duration": 330
       },
       "geometry": {
         "type": "LineString",
@@ -13961,21 +13941,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Koblenz Hauptbahnhof ❯ Trier Hauptbahnhof",
-          "from": "Koblenz Hauptbahnhof",
-          "to": "Trier Hauptbahnhof"
-        },
+        "name": "Koblenz Hauptbahnhof ❯ Trier Hauptbahnhof",
+        "from": "Koblenz Hauptbahnhof",
+        "to": "Trier Hauptbahnhof",
         "description": "",
         "carrier": "DB",
         "service": "Regional Express",
         "train": "RE 4130",
         "date": "2022-12-23T21:19+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 1,
-          "minutes": 21
-        }
+        "duration": 81
       },
       "geometry": {
         "type": "LineString",
@@ -15534,21 +15508,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Luxembourg Gare ❯ Bruxelles-Midi",
-          "from": "Luxembourg Gare",
-          "to": "Bruxelles-Midi"
-        },
+        "name": "Luxembourg Gare ❯ Bruxelles-Midi",
+        "from": "Luxembourg Gare",
+        "to": "Bruxelles-Midi",
         "description": "",
         "carrier": "SNCB",
         "service": "InterCity",
         "train": "IC 2131",
         "date": "2022-12-26T08:11+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 3,
-          "minutes": 17
-        }
+        "duration": 197
       },
       "geometry": {
         "type": "LineString",
@@ -18196,21 +18164,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Bruxelles Midi ❯ Bruxelles Central",
-          "from": "Bruxelles Midi",
-          "to": "Bruxelles Central"
-        },
+        "name": "Bruxelles Midi ❯ Bruxelles Central",
+        "from": "Bruxelles Midi",
+        "to": "Bruxelles Central",
         "description": "",
         "carrier": "SNCB",
         "service": "InterCity",
         "train": "IC 2112",
         "date": "2022-12-26T12:33+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 0,
-          "minutes": 4
-        }
+        "duration": 4
       },
       "geometry": {
         "type": "LineString",
@@ -18272,21 +18234,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Bruxelles Midi ❯ Rotterdam Centraal",
-          "from": "Bruxelles Midi",
-          "to": "Rotterdam Centraal"
-        },
+        "name": "Bruxelles Midi ❯ Rotterdam Centraal",
+        "from": "Bruxelles Midi",
+        "to": "Rotterdam Centraal",
         "description": "",
         "carrier": "NS",
         "service": "InterCity",
         "train": "IC 9259",
         "date": "2022-12-26T17:45+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 2,
-          "minutes": 5
-        }
+        "duration": 125
       },
       "geometry": {
         "type": "LineString",
@@ -20034,21 +19990,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Rotterdam Centraal ❯ Amsterdam Centraal",
-          "from": "Rotterdam Centraal",
-          "to": "Amsterdam Centraal"
-        },
+        "name": "Rotterdam Centraal ❯ Amsterdam Centraal",
+        "from": "Rotterdam Centraal",
+        "to": "Amsterdam Centraal",
         "description": "",
         "carrier": "NS",
         "service": "InterCity",
         "train": "IC 921",
         "date": "2022-12-27T11:11+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 0,
-          "minutes": 41
-        }
+        "duration": 41
       },
       "geometry": {
         "type": "LineString",
@@ -20961,21 +20911,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Amsterdam Centraal ❯ Bruxelles Midi",
-          "from": "Amsterdam Centraal",
-          "to": "Bruxelles Midi"
-        },
+        "name": "Amsterdam Centraal ❯ Bruxelles Midi",
+        "from": "Amsterdam Centraal",
+        "to": "Bruxelles Midi",
         "description": "",
         "carrier": "NS",
         "service": "InterCity",
         "train": "IC 9248",
         "date": "2022-12-28T15:28+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 2,
-          "minutes": 49
-        }
+        "duration": 169
       },
       "geometry": {
         "type": "LineString",
@@ -23599,21 +23543,15 @@
     {
       "type": "Feature",
       "properties": {
-        "trip": {
-          "name": "Bruxelles Midi ❯ Paris Nord",
-          "from": "Bruxelles Midi",
-          "to": "Paris Nord"
-        },
+        "name": "Bruxelles Midi ❯ Paris Nord",
+        "from": "Bruxelles Midi",
+        "to": "Paris Nord",
         "description": "",
         "carrier": "Thalys",
         "service": "Thalys",
         "train": "THA 9376",
         "date": "2022-12-28T19:13+01:00",
-        "duration": {
-          "days": 0,
-          "hours": 1,
-          "minutes": 22
-        }
+        "duration": 82
       },
       "geometry": {
         "type": "LineString",
