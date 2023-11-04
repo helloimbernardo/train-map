@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     creatorId: "1145366758376841216",
     images: {
       url: "/og.jpg",
-      alt: "Map representing every major train trip I've taken", 
+      alt: "Map representing every major train trip I've taken",
     },
   },
 };
