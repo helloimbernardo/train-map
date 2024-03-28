@@ -17,14 +17,14 @@
     "not ie 11"
   ],
   "dependencies": {
-    "mapbox-gl": "^2.15.0",
+    "maplibre-gl": "^4.1.2",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
     "react-map-gl": "^7.1.6"
   },
   "devDependencies": {
-    "@types/mapbox-gl": "^2.7.17",
+    "@types/maplibre-gl": "^1.14.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
