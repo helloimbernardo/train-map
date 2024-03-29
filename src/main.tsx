@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App.tsx";
 import ErrorPage from "./error-page.tsx";
 
+// todo (helloimbernardo): add routing
 
 // const router = createBrowserRouter([
 //   {
