@@ -34,6 +34,9 @@ npm dev
 yarn dev
 ```
 
+## Publishing
+I've followed [vitejs's guide](https://vitejs.dev/guide/static-deploy#github-pages) on publishing to github pages and the repository already includes a [pages deploy configuration](./.github/workflows/deploy.yml). You must add your MapTiler API key with the same name as described above in step 1 of the development steps to your secrets [as described in this guide](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
+
 ## Information
 This project is released under [the MIT License](./LICENSE.md). The map style used was made for this project and is served by [MapTiler](http://maptiler.com/)
 
@@ -44,5 +47,6 @@ Various open source projects are used. Here is a short description of what they 
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss#readme): Handy CSS framework for easy styling.
 - [vite](https://github.com/vitejs/vite): Last but not least. Toolchain for frontend app building. Makes react more manageable 
 - [react](https://github.com/facebook/react#readme): Library for building the interactive website. cheers facebook.
-- [typescript](https://github.com/microsoft/TypeScript/#readme): Adds types to javascript. cheers microsoft.  
+- [typescript](https://github.com/microsoft/TypeScript/#readme): Adds types to javascript. cheers microsoft.
+
 And others such as [eslint](https://github.com/eslint/eslint#readme), [eslint-plugin-react-refresh](https://github.com/ArnaudBarre/eslint-plugin-react-refresh#readme), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint#readme) and the [DefinitelyTyped project](https://github.com/DefinitelyTyped/DefinitelyTyped#readme). 
