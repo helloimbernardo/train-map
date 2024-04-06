@@ -3,25 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import App from "./App.tsx";
-import ErrorPage from "./error-page.tsx";
-
-// todo (helloimbernardo): add routing
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <ErrorPage />,
-//   },
-//   {
-//     path: "/:longitude/:latitude/:zoom",
-//     element: <App />,
-//     errorElement: <ErrorPage />,
-//   },
-// ]);
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/:latitude?/:longitude?/:zoom?" element={<App />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );

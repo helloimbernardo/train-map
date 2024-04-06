@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import Map, {
   Source,
   Layer,
@@ -7,18 +7,62 @@ import Map, {
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import trainData from "./geojson/trains.geojson?raw";
+import { useParams, useNavigate } from "react-router-dom";
+
+
+interface Params {
+  latitude?: number; 
+  longitude?: number;
+  zoom?: number;
+}
 
 function App(): JSX.Element {
-  const [data, setData] = useState(JSON.parse(trainData));
+  /**
+   * @name params
+   * @description URL parameters
+   * @param {number} longitude - The longitude of the map.
+   * @param {number} latitude - The latitude of the map.
+   * @param {number} zoom - The zoom level of the map.
+   */
+  const params: Params = useParams();
+  const navigate = useNavigate();
+
+  /**
+   * @name data
+   * @description GeoJSON data of the trains
+   */
+  const [data] = useState(JSON.parse(trainData));
+
+  /**
+   * @name viewState
+   * @description Current state of the map
+   * @param {number} longitude - The longitude of the map.
+   * @param {number} latitude - The latitude of the map.
+   * @param {number} zoom - The zoom level of the map.
+   *
+   * @name setViewState
+   * @description Function to update the viewState
+   * @param {object} newViewState - The new viewState object with latitude, longitude and zoom.
+   */
   const [viewState, setViewState] = useState({
-    longitude: 4.3951,
-    latitude: 46.001,
-    zoom: 5,
+    longitude: params.longitude || 4.3951,
+    latitude: params.latitude || 46.001,
+    zoom: params.zoom || 5,
   });
 
+  /**
+   * @name mapMove
+   * @description Update the viewState and the URL when the map is moved
+   * @param {object} e - The event object containing the new viewState
+   */
   function mapMove(e: ViewStateChangeEvent) {
     setViewState(e.viewState);
-    // router.push(`/${e.viewState.longitude}/${e.viewState.latitude}/${e.viewState.zoom}`);
+    navigate(
+      `/${e.viewState.latitude.toFixed(5)}/${e.viewState.longitude.toFixed(
+        5
+      )}/${e.viewState.zoom.toFixed(2)}`,
+      { replace: true }
+    );
   }
 
   return (
