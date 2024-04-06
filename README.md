@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Train Map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mapping every (major) train trip I've taken on a map**
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🌍Map visualization](https://helloimbernardo.github.io/train-map/)
 
-## Expanding the ESLint configuration
+[🗺️(Alternative) Map on uMap](http://u.osmfr.org/m/947323/)  
+[💾Raw geojson data](./src/geojson/trains.geojson)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Development
+This project has a development branch, named `dev`. For major projects that might take longer, a new branch may be created, although this is rare.  
+To get the project running, simply clone the repository locally and run the following commands:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+**1. install dependencies**
+```bash
+# for npm users
+npm i
+# or for yarn users
+yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**2. run the development server**
+```bash
+# for npm users
+npm dev
+# or for yarn users
+yarn dev
+```
