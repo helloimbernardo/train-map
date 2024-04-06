@@ -41,7 +41,7 @@ jobs:
           node-version: 20
           cache: 'yarn'
       - name: Install dependencies
-        run: yarn install --production
+        run: yarn install
       - name: Build
         run: yarn run build
       - name: Setup Pages
