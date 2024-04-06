@@ -71,7 +71,7 @@ function App(): JSX.Element {
         {...viewState}
         onMove={(e) => mapMove(e)}
         style={{ width: "100vw", height: "100vh" }}
-        mapStyle="https://api.maptiler.com/maps/cfe038db-726a-41cf-a26a-d7d81ffd705f/style.json?key=8MvyZNMeS4PmyUunVjbY"
+        mapStyle={`https://api.maptiler.com/maps/cfe038db-726a-41cf-a26a-d7d81ffd705f/style.json?key=${import.meta.env.VITE_MAPTILER_API_KEY}`}
       >
         <Source id="trains" type="geojson" data={data}>
           <Layer
