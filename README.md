@@ -35,7 +35,7 @@ yarn dev
 ```
 
 ## Publishing
-I've followed [vitejs's guide](https://vitejs.dev/guide/static-deploy#github-pages) on publishing to github pages and the repository already includes a [pages deploy configuration](./.github/workflows/deploy.yml). You must add your MapTiler API key with the same name as described above in step 1 of the development steps to your secrets [as described in this guide](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
+I've followed [vitejs's guide](https://vitejs.dev/guide/static-deploy#github-pages) on publishing to github pages and the repository already includes a [pages deploy configuration](./.github/workflows/deploy.yml). You must add your MapTiler API key with the same name as described above in step 1 of the development steps to your secrets [as described in this guide](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions). You might also wanna edit the base URL to match the desired base URL. You can do this in [the vite.config.ts file](./vite.config.ts)
 
 ## Information
 This project is released under [the MIT License](./LICENSE.md). The map style used was made for this project and is served by [MapTiler](http://maptiler.com/)
