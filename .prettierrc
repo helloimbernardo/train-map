@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/prettierrc",
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "printWidth": 80,
+    "overrides": [
+        {
+            "files": "*.geojson",
+            "options": {
+                "printWidth": 120
+            }
+        }
+    ]
+}
